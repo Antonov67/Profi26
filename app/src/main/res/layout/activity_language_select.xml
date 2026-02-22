@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.LanguageSelectActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="What is your Mother language?" />
+
+    <com.google.android.material.button.MaterialButton
+
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:backgroundTint="@color/btn_selector"
+        android:gravity="left|center_vertical"
+        android:text="Russian"
+        android:textColor="@color/black"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:textSize="22sp"
+        app:cornerRadius="20dp" />
+
+    <com.google.android.material.button.MaterialButton
+
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:backgroundTint="@color/btn_selector"
+        android:gravity="left|center_vertical"
+        android:text="Belarus"
+        android:layout_marginTop="12dp"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:cornerRadius="20dp" />
+
+    <com.google.android.material.button.MaterialButton
+
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:backgroundTint="@color/btn_selector"
+        android:gravity="left|center_vertical"
+        android:text="Chinese"
+        android:layout_marginTop="12dp"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:cornerRadius="20dp" />
+
+    <com.google.android.material.button.MaterialButton
+
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:backgroundTint="@color/btn_selector"
+        android:gravity="left|center_vertical"
+        android:text="English"
+        android:layout_marginTop="12dp"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:cornerRadius="20dp" />
+
+    <com.google.android.material.button.MaterialButton
+
+        android:id="@+id/buttonChooseLang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="300dp"
+        android:backgroundTint="@color/blue"
+        android:text="Choose"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:textColor="@color/white"
+        app:cornerRadius="12dp" />
+
+</LinearLayout>

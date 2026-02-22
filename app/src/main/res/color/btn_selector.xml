@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Состояние: кнопка нажата -->
+    <item android:state_pressed="true" android:color="@color/btn_select" />
+    <!-- Состояние по умолчанию (активна и не нажата) -->
+    <item android:color="@color/btn_no_select" />
+</selector>

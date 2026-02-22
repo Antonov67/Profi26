@@ -1,6 +1,8 @@
 package com.example.profi26.ui;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,7 +12,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 import com.example.profi26.R;
 
-public class OnBoardingActivity extends AppCompatActivity {
+public class OnBoardingActivity1 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,11 +20,19 @@ public class OnBoardingActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
 
-        setContentView(R.layout.activity_on_boarding);
+        setContentView(R.layout.activity_on_boarding1);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+
+    public void toOnb2(View view) {
+        startActivity(new Intent(OnBoardingActivity1.this, OnBoardingActivity2.class));
+    }
+
+    public void skip(View view) {
+        startActivity(new Intent(OnBoardingActivity1.this, LanguageSelectActivity.class));
     }
 }

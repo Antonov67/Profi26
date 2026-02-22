@@ -4,5 +4,13 @@
     <color name="white">#FFFFFFFF</color>
     <color name="blue">#5B7BFE</color>
     <color name="deep_blue">#410FA3</color>
+    <color name="dark">#080E1E</color>
+    <color name="btn_select">#F76400</color>
+    <color name="btn_no_select">#FFF6EB</color>
+
+
+
+
+
 
 </resources>
