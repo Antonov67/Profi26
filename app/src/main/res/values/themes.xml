@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Profi26" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <style name="Theme.MyApp.Starting" parent="Base.Theme.Profi26">
+        <item name="android:windowBackground">@color/deep_blue</item>
+    </style>
+
+    <style name="Theme.Profi26" parent="Base.Theme.Profi26" />
+</resources>
