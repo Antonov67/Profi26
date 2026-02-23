@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Profi26</string>
+    <string name="min"><![CDATA[<]]></string>
 </resources>

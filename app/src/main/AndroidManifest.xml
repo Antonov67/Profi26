@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApp.Starting">
         <activity
+            android:name=".ui.LoginActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.LanguageSelectActivity"
             android:exported="false" />
         <activity
