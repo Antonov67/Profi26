@@ -2,6 +2,10 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- Состояние: кнопка нажата -->
     <item android:state_pressed="true" android:color="@color/btn_select" />
+    <item android:state_enabled="false" android:color="@color/btn_select" />
+    <!-- Состояние: кнопка в фокусе -->
+    <item android:state_focused="true" android:color="@color/btn_select" />
+
     <!-- Состояние по умолчанию (активна и не нажата) -->
     <item android:color="@color/btn_no_select" />
 </selector>

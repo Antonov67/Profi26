@@ -8,85 +8,122 @@
     android:orientation="vertical"
     tools:context=".ui.LanguageSelectActivity">
 
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/deep_blue">
+
+    <TextView
+        android:id="@+id/toolbar_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Language select"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+</androidx.appcompat.widget.Toolbar>
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@color/black"
-        android:textSize="22sp"
-        android:gravity="center"
         android:layout_marginTop="20dp"
-        android:text="What is your Mother language?" />
+        android:fontFamily="@font/fredoka_medium"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="What is your Mother language?"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+       />
 
     <com.google.android.material.button.MaterialButton
 
+        android:id="@+id/lb1"
         android:layout_width="match_parent"
-        android:layout_height="67dp"
+        android:layout_height="80dp"
         android:backgroundTint="@color/btn_selector"
         android:gravity="left|center_vertical"
         android:text="Russian"
+        android:textStyle="bold"
+        android:fontFamily="@font/fredoka_medium"
         android:textColor="@color/black"
         android:layout_marginTop="12dp"
         android:layout_marginLeft="24dp"
         android:layout_marginRight="24dp"
-        android:textSize="22sp"
+        android:textSize="28sp"
         app:cornerRadius="20dp" />
 
     <com.google.android.material.button.MaterialButton
 
+        android:id="@+id/lb2"
         android:layout_width="match_parent"
-        android:layout_height="67dp"
+        android:layout_height="80dp"
         android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp"
         android:backgroundTint="@color/btn_selector"
         android:gravity="left|center_vertical"
         android:text="Belarus"
+        android:fontFamily="@font/fredoka_medium"
         android:layout_marginTop="12dp"
         android:textColor="@color/black"
-        android:textSize="22sp"
+        android:textSize="28sp"
+        android:textStyle="bold"
         app:cornerRadius="20dp" />
 
     <com.google.android.material.button.MaterialButton
 
+        android:id="@+id/lb3"
         android:layout_width="match_parent"
-        android:layout_height="67dp"
+        android:layout_height="80dp"
         android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp"
         android:backgroundTint="@color/btn_selector"
         android:gravity="left|center_vertical"
         android:text="Chinese"
+        android:fontFamily="@font/fredoka_medium"
         android:layout_marginTop="12dp"
         android:textColor="@color/black"
-        android:textSize="22sp"
+        android:textSize="28sp"
+        android:textStyle="bold"
         app:cornerRadius="20dp" />
 
     <com.google.android.material.button.MaterialButton
 
+        android:id="@+id/lb4"
         android:layout_width="match_parent"
-        android:layout_height="67dp"
+        android:layout_height="80dp"
         android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp"
         android:backgroundTint="@color/btn_selector"
         android:gravity="left|center_vertical"
         android:text="English"
+        android:fontFamily="@font/fredoka_medium"
         android:layout_marginTop="12dp"
         android:textColor="@color/black"
-        android:textSize="22sp"
+        android:textSize="28sp"
+        android:textStyle="bold"
         app:cornerRadius="20dp" />
 
     <com.google.android.material.button.MaterialButton
 
         android:id="@+id/buttonChooseLang"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp"
-        android:layout_marginTop="300dp"
         android:backgroundTint="@color/blue"
         android:text="Choose"
+        android:textSize="24sp"
+        android:fontFamily="@font/fredoka_medium"
         android:layout_marginLeft="24dp"
         android:layout_marginRight="24dp"
         android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="300dp"
         app:cornerRadius="12dp" />
 
 </LinearLayout>
