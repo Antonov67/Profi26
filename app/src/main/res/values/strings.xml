@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Profi26</string>
     <string name="min"><![CDATA[<]]></string>
+    <string name="return_button"><![CDATA[<]]></string>
+    <string name="email_address">Email Address</string>
+    <string name="for_free_join_now_and_n_start_learning">For free, join now and \n start learning</string>
 </resources>

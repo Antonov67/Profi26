@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Profi26</string>
+    <string name="min"><![CDATA[<]]></string>
+    <string name="return_button"><![CDATA[<]]></string>
+    <string name="email_address">Электронная почта</string>
+    <string name="for_free_join_now_and_n_start_learning">Бесплатно, присоединяйся сейчас и \n начинай обучение</string>
+</resources>
